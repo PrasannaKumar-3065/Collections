@@ -39,11 +39,13 @@ public class hashSet {
 
         Log.info("" + set.remove(sd1));
         for (studentDetails s : set) {
-            Log.info(s.studentName + " " + s.studentAddress + " " + s.id);
+            print = s.studentName + " " + s.studentAddress + " " + s.id
+            Log.info(print);
         }
-        Log.info("" +Integer.toString(set.size()) );
-        Log.info(Integer.toString(sd1.hashCode()));
+        print = ""+set.size();
+        Log.info(print);
+        print = ""+sd1.hashCode();
+        Log.info(print);
 
     }
-
 }
