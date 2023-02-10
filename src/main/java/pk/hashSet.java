@@ -30,22 +30,22 @@ public class hashSet {
         set.add(sd1);
         sd1 = new studentDetails("vignesh", "3rd Street", 103);
         set.add(sd1);
-        String print;
+        String s1;
 
         for (studentDetails s : set) {
-            print =s.studentName + " " + s.studentAddress + " " + s.id;
-            Log.info(print);
+            s1 =s.studentName + " " + s.studentAddress + " " + s.id;
+            Log.info(s1);
         }
-
-        Log.info("" + set.remove(sd1));
+        s1 = "" + set.remove(sd1);
+        Log.info(s1);
         for (studentDetails s : set) {
-            print = s.studentName + " " + s.studentAddress + " " + s.id;
-            Log.info(print);
+            s1 = s.studentName + " " + s.studentAddress + " " + s.id;
+            Log.info(s1);
         }
-        print = ""+set.size();
-        Log.info(print);
-        print = ""+sd1.hashCode();
-        Log.info(print);
+        s1 = ""+set.size();
+        Log.info(s1);
+        s1 = ""+sd1.hashCode();
+        Log.info(s1);
 
     }
 }
