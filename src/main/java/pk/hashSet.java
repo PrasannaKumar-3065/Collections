@@ -39,7 +39,7 @@ public class hashSet {
 
         Log.info("" + set.remove(sd1));
         for (studentDetails s : set) {
-            print = s.studentName + " " + s.studentAddress + " " + s.id
+            print = s.studentName + " " + s.studentAddress + " " + s.id;
             Log.info(print);
         }
         print = ""+set.size();
