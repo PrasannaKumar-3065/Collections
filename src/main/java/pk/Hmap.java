@@ -6,27 +6,27 @@ import java.util.logging.Logger;
 public class Hmap{
   public static final Logger Log = Logger.getLogger("InfoLogging");
     public static void main(String[] args) {
-        HashMap<String,String> hmap = new HashMap<String,String>();
-
-        hmap.put("stu101","prasanna");
-        hmap.put("stu102","nixon");
-        hmap.put("stu103","jeeva");
-        hmap.put("stu104","vignesh");
-        String s = ""+hmap;
+        HashMap<String,String> hash = new HashMap<String,String>();
+        hash.put("stu101","prasanna");
+        hash.put("stu102","nixon");
+        hash.put("stu103","jeeva");
+        hash.put("stu104","vignesh");
+        String s = ""+hash;
         Log.info(s);
-        s = "Size: "+hmap.size();
+        s = "Size: "+hash.size();
         Log.info(s);
-        String key = ""+hmap.keySet();
+        String key = ""+hash.keySet();
         Log.info(key);
-        String val = ""+hmap.values();
+        String val = ""+hash.values();
         Log.info(val);
-        hmap.remove("emp012");
-        s = ""+hmap;
+        hash.remove("emp012");
+        s = ""+hash;
         Log.info(s);
-        hmap.replace("stu103", "thavasu");
-        s = ""+hmap;
+        hash.replace("stu103", "thavasu");
+        s = ""+hash;
         Log.info(s);
-        Log.info(hmap.get("stu101"));
+        s = ""+hash.get("stu101");
+        Log.info(s);
 
     }
 
