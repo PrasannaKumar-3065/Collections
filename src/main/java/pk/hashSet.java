@@ -42,7 +42,6 @@ public class hashSet {
             Log.info(s.studentName + " " + s.studentAddress + " " + s.id);
         }
         Log.info("" +Integer.toString(set.size()) );
-        Log.info("" + sd1.equals(sd1));
         Log.info(Integer.toString(sd1.hashCode()));
 
     }
