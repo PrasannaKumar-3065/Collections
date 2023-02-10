@@ -8,13 +8,11 @@ public class tree {
     public static final Logger Log = Logger.getLogger("InfoLogging");
   public static void main(String[] args) {
     TreeSet<String> names = new TreeSet<>();
-
     names.add("prasanna");
     names.add("nixon");
     names.add("jeeva");
     names.add("jeshinth");
     names.add("thavasu");
-
     String tree ="TreeSet" + names;
     Log.info(tree);  
     TreeSet<String> sortedNames = new TreeSet<>(new Comparator<String>() {
