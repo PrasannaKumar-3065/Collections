@@ -23,10 +23,10 @@ public class hash{
         hmap.remove("emp012");
         hash = ""+hmap;
         Log.info(hash);
-        hmap.replace("stu104", "thavasu");
+        hmap.replace("stu103", "thavasu");
         hash = ""+hmap;
         Log.info(hash);
-        Log.info(hmap.get("stu104"));
+        Log.info(hmap.get("stu101"));
 
     }
 
