@@ -26,7 +26,7 @@ public class tree {
     sortedNames.addAll(names);
     String stree = "ascending order: " + sortedNames;
     Log.info(stree);  
-    stree = ""+names.contains("prasanna");
+    stree = ""+names.contains("nixon");
     Log.info(stree);
     names.remove("prasanna");
     stree = ""+names;
